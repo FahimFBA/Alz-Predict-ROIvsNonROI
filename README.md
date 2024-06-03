@@ -1,1 +1,1 @@
-# Efficient-Prediction-for-Alzheimers-Disease
+# Efficient Prediction for Alzheimers Disease
