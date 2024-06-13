@@ -1,4 +1,4 @@
-# Efficient Prediction for Alzheimers Disease
+# Efficient Prediction for Alzheimer's Disease
 
 ## Short Demonstration
 
@@ -9,7 +9,7 @@
 ## Datasets
 
 
-## Detaset Organization
+## Dataset Organization
 
 
 
