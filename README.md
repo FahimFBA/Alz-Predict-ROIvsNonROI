@@ -1,8 +1,6 @@
 # Efficient Prediction for Alzheimer's Disease
 
 ## Short Demonstration
-# Alzheimer's Disease Detection Using MRI and 3D ResNet with CBAM
-
 This project leverages advanced Convolutional Neural Networks (CNNs) for the automated segmentation and analysis of MRI brain images to detect Alzheimer's Disease. We use 3D ResNet enhanced with Convolutional Block Attention Module (CBAM) to improve the model's performance and interpretability. Our approach includes data preprocessing, MRI registration, and data augmentation techniques. The dataset is sourced from ADNI and OASIS, segmented using FastSurfer, and processed with CLAHE for better contrast. This method aims for accurate and efficient Alzheimer's detection, enhancing early diagnosis and treatment strategies.
 
 ## Abstract
