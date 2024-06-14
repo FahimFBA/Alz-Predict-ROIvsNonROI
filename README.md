@@ -6,6 +6,7 @@ This project leverages advanced Convolutional Neural Networks (CNNs) for the aut
 ## Abstract
 
 
+
 ## Datasets
 In the first phase, we gathered 3D MRI datasets from ADNI and OASIS, renowned initiatives for advancing the understanding of Alzheimer’s disease. We categorized the data into Alzheimer’s Disease (AD), Mild Cognitive Impairment (MCI), and Cognitively Normal (CN) classes. Additionally, we obtained CSV files containing detailed patient information for labeling. Strict privacy rules were followed to ensure the security of sensitive medical data.
 
