@@ -24,8 +24,9 @@ The dataset includes 416 patients aged 18 to 96. Each person undergoes three or 
 
 ## Experiments
 
-| Experiment Sl. | Experiment Name | Accuracy | Notebook | Model |
-| -------------- | --------------- | -------- | -------- | ----- |
-|                |                 |          |          |       |
-|                |                 |          |          |       |
-|                |                 |          |          |       |
+| Experiment Sl. | Experiment Name | Accuracy | Val. Accuracy | Notebook | Model |
+| -------------- | --------------- | -------- | --------------| -------- | ----- |
+|       1        | ADNI - CN vs MCI| 88%      | 88%           |          |       |
+|       2        | ADNI (ROIs) - CN vs MCI| 92% | 98.33%      |          |       |
+|       3        | OASIS - CN vs MCI| 98%  | 98.3%            |          |       |
+|       4        |OASIS - CN vs MCI | 98.33% | 97.78%         |          |       |
