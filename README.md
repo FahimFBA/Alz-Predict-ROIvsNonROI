@@ -31,7 +31,7 @@ The dataset includes 416 patients aged 18 to 96. Each person undergoes three or 
 |       3        | OASIS - AD vs MCI| 98%  | 98.3%            |          |       |
 |       4        | OASIS (6 ROIs) - AD vs MCI | 98.33% | 97.78% |        |       |
 |       5        | ADNI - AD vs CN | 88.89% | 97.5%           |          |       |
-|       6        | ADNI (6 ROIs) - AD vs CN | 93.33% | 95.63% |        |       |
+|       6        | ADNI (6 ROIs) - AD vs CN | 93.33% | 95.63% |          |       |
 |       7        | OASIS - AD vs CN | 100% | 100%             |          |       | 
 |       8        | OASIS (6 ROIs) - AD vs CN | 97.8% | 99.5%  |          |       |
 |       9        | ADNI - CN vs MCI | 87.27% | 89.5%          |          |       |
