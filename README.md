@@ -26,15 +26,15 @@ The dataset includes 416 patients aged 18 to 96. Each person undergoes three or 
 
 | Experiment Sl. | Experiment Name | Accuracy | Val. Accuracy | Notebook | Model |
 | -------------- | --------------- | -------- | --------------| -------- | ----- |
-|       1        | ADNI - AD vs MCI| 88%      | 88%           |          |       |
-|       2        | ADNI (6 ROIs) - AD vs MCI| 92% | 98.33%    |          |       |
-|       3        | OASIS - AD vs MCI| 98%  | 98.3%            |          |       |
-|       4        | OASIS (6 ROIs) - AD vs MCI | 98.33% | 97.78% |        |       |
-|       5        | ADNI - AD vs CN | 88.89% | 97.5%           |          |       |
-|       6        | ADNI (6 ROIs) - AD vs CN | 93.33% | 95.63% |          |       |
-|       7        | OASIS - AD vs CN | 100% | 100%             |          |       | 
-|       8        | OASIS (6 ROIs) - AD vs CN | 97.8% | 99.5%  |          |       |
-|       9        | ADNI - CN vs MCI | 87.27% | 89.5%          |          |       |
-|       10       | ADNI (6 ROIs) - CN vs MCI | 88.2% | 91.03% |          |       | 
+|       1        | ADNI - AD vs MCI| 88%      | 88%           | [View](https://nbviewer.org/github/deepu1067/Alz-Predict-ROIvsNonROI/blob/main/Notebooks/ADNI/Complete%20Region%20of%20Human%20Brain/Upgraded%20Filter%20AD%20vs%20CN/Upgrade_Filter_allReg_IJK_ADNI_ADvsCN.ipynb) -- [Notebook](./Notebooks/ADNI/Complete%20Region%20of%20Human%20Brain/Upgraded%20Filter%20AD%20vs%20CN/Upgrade_Filter_allReg_IJK_ADNI_ADvsCN.ipynb) | Resnet18 with CBAM |
+|       2        | ADNI (6 ROIs) - AD vs MCI| 92% | 98.33%    | [View](https://nbviewer.org/github/deepu1067/Alz-Predict-ROIvsNonROI/blob/main/Notebooks/OASIS/6%20ROIs/Upgraded%20Filter%20AD%20vs%20CN/Upgrade_Filter_6ROI_OASIS_ADvsCN.ipynb) -- [Notebook](./Notebooks/ADNI/6%20ROIs/Upgrade%20Filter%206ROI%20AD%20vs%20MCI/Main%20Notebook/Upgrade_Filter_6ROI_ADNI_ADvsMCI.ipynb)  | Resnet18 with CBAM |
+|       3        | OASIS - AD vs MCI| 98%  | 98.3%            |  |       |
+|       4        | OASIS (6 ROIs) - AD vs MCI | 98.33% | 97.78% | [View](https://nbviewer.org/github/deepu1067/Alz-Predict-ROIvsNonROI/blob/main/Notebooks/OASIS/6%20ROIs/Upgraded%20Filter%20AD%20vs%20CN/Upgrade_Filter_6ROI_OASIS_ADvsCN.ipynb) -- [Notebook](./Notebooks/OASIS/6%20ROIs/Upgraded%20Filter%20AD%20vs%20CN/) | Resnet18 with CBAM |
+|       5        | ADNI - AD vs CN | 88.89% | 97.5% | [View](https://nbviewer.org/github/deepu1067/Alz-Predict-ROIvsNonROI/blob/main/Notebooks/ADNI/Complete%20Region%20of%20Human%20Brain/Upgraded%20Filter%20AD%20vs%20CN/Upgrade_Filter_allReg_IJK_ADNI_ADvsCN.ipynb) -- [Notebook](./Notebooks/ADNI/Complete%20Region%20of%20Human%20Brain/Upgraded%20Filter%20AD%20vs%20CN/Upgrade_Filter_allReg_IJK_ADNI_ADvsCN.ipynb) | Resnet18 with CBAM |
+|       6        | ADNI (6 ROIs) - AD vs CN | 93.33% | 95.63% | [View](https://nbviewer.org/github/deepu1067/Alz-Predict-ROIvsNonROI/blob/main/Notebooks/OASIS/6%20ROIs/Upgraded%20Filter%20AD%20vs%20CN/Upgrade_Filter_6ROI_OASIS_ADvsCN.ipynb) -- [Notebook](./Notebooks/ADNI/6%20ROIs/Upgrade%20Filter%206ROI%20AD%20vs%20MCI/Main%20Notebook/Upgrade_Filter_6ROI_ADNI_ADvsMCI.ipynb) | Resnet18 with CBAM |
+|       7        | OASIS - AD vs CN | 100% | 100% |          |       | 
+|       8        | OASIS (6 ROIs) - AD vs CN | 97.8% | 99.5%  | [View](https://nbviewer.org/github/deepu1067/Alz-Predict-ROIvsNonROI/blob/main/Notebooks/OASIS/6%20ROIs/Upgraded%20Filter%20AD%20vs%20CN/Upgrade_Filter_6ROI_OASIS_ADvsCN.ipynb) -- [Notebook](./Notebooks/OASIS/6%20ROIs/Upgraded%20Filter%20AD%20vs%20CN/) | Resnet18 with CBAM |
+|       9        | ADNI - CN vs MCI | 87.27% | 89.5%          | [View](https://nbviewer.org/github/deepu1067/Alz-Predict-ROIvsNonROI/blob/main/Notebooks/ADNI/Complete%20Region%20of%20Human%20Brain/Upgraded%20Filter%20AD%20vs%20CN/Upgrade_Filter_allReg_IJK_ADNI_ADvsCN.ipynb) -- [Notebook](./Notebooks/ADNI/Complete%20Region%20of%20Human%20Brain/Upgraded%20Filter%20AD%20vs%20CN/Upgrade_Filter_allReg_IJK_ADNI_ADvsCN.ipynb) | Resnet18 with CBAM |
+|       10       | ADNI (6 ROIs) - CN vs MCI | 88.2% | 91.03% | [View](https://nbviewer.org/github/deepu1067/Alz-Predict-ROIvsNonROI/blob/main/Notebooks/ADNI/6%20ROIs/Upgrade%20Filter%206ROI%20AD%20vs%20MCI/Main%20Notebook/Upgrade_Filter_6ROI_ADNI_ADvsMCI.ipynb) -- [Notebook](./Notebooks/ADNI/6%20ROIs/Upgrade%20Filter%206ROI%20AD%20vs%20MCI/Main%20Notebook/Upgrade_Filter_6ROI_ADNI_ADvsMCI.ipynb) | Resnet18 with CBAM | 
 |       11       | OASIS - CN vs MCI | 98.05% | 98.89%        |          |       |
-|       12       | OASIS (6 ROIs) - CN vs MCI | 98.6% | 99.6% |          |       |
+|       12       | OASIS (6 ROIs) - CN vs MCI | 98.6% | 99.6% | [View](https://nbviewer.org/github/deepu1067/Alz-Predict-ROIvsNonROI/blob/main/Notebooks/OASIS/6%20ROIs/Upgraded%20Filter%20AD%20vs%20CN/Upgrade_Filter_6ROI_OASIS_ADvsCN.ipynb) -- [Notebook](./Notebooks/OASIS/6%20ROIs/Upgraded%20Filter%20AD%20vs%20CN/) | Resnet18 with CBAM |
