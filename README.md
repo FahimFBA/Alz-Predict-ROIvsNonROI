@@ -5,8 +5,11 @@
 This repository is based on the following peer-reviewed publication:
 
 **Paper Title**: [Enhanced ROI guided deep learning model for Alzheimer’s detection using 3D MRI images](https://doi.org/10.1016/j.imu.2025.101650)
+
 **Journal**: *Informatics in Medicine Unlocked*, Volume 56, 2025, Page 101650
+
 **DOI**: [https://doi.org/10.1016/j.imu.2025.101650](https://doi.org/10.1016/j.imu.2025.101650)
+
 **Read on**:
 
 * [ScienceDirect](https://www.sciencedirect.com/science/article/pii/S2352914825000383)
