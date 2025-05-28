@@ -1,10 +1,60 @@
 # Efficient Prediction for Alzheimer's Disease
 
-## Short Demonstration
-This project leverages advanced Convolutional Neural Networks (CNNs) for the automated segmentation and analysis of MRI brain images to detect Alzheimer's Disease. We use 3D ResNet enhanced with Convolutional Block Attention Module (CBAM) to improve the model's performance and interpretability. Our approach includes data preprocessing, MRI registration, and data augmentation techniques. The dataset is sourced from ADNI and OASIS, segmented using FastSurfer, and processed with CLAHE for better contrast. This method aims for accurate and efficient Alzheimer's detection, enhancing early diagnosis and treatment strategies.
+## 📄 Paper
+
+This repository is based on the following peer-reviewed publication:
+
+**Paper Title**: [Enhanced ROI guided deep learning model for Alzheimer’s detection using 3D MRI images](https://doi.org/10.1016/j.imu.2025.101650)
+**Journal**: *Informatics in Medicine Unlocked*, Volume 56, 2025, Page 101650
+**DOI**: [https://doi.org/10.1016/j.imu.2025.101650](https://doi.org/10.1016/j.imu.2025.101650)
+**Read on**:
+
+* [ScienceDirect](https://www.sciencedirect.com/science/article/pii/S2352914825000383)
+* [ResearchGate](https://www.researchgate.net/publication/392007551_Enhanced_ROI_guided_deep_learning_model_for_Alzheimer's_detection_using_3D_MRI_images)
+
+### 📚 Citation
+
+```
+@article{KHAN2025101650,
+title = {Enhanced ROI guided deep learning model for Alzheimer’s detection using 3D MRI images},
+journal = {Informatics in Medicine Unlocked},
+volume = {56},
+pages = {101650},
+year = {2025},
+issn = {2352-9148},
+doi = {https://doi.org/10.1016/j.imu.2025.101650},
+url = {https://www.sciencedirect.com/science/article/pii/S2352914825000383},
+author = {Israt Jahan Khan and Md. Fahim Bin Amin and Md. Delwar Shahadat Deepu and Hazera Khatun Hira and Asif Mahmud and Anas Mashad Chowdhury and Salekul Islam and Md. Saddam Hossain Mukta and Swakkhar Shatabda},
+keywords = {Alzheimer’s disease, Regions of Interest (ROIs), 3D MRI, Transfer learning, ResNet 3D, Efficient computation},
+abstract = {Alzheimer’s disease is an incurable condition that predominantly affects the human brain, leading to the shrinkage of various brain regions and the disruption of neuronal connections. Current state-of-the-art methods for detecting Alzheimer’s disease using 3D MRI images are resource-intensive and time-consuming. In this paper, we propose a Regions of Interest (ROI)-guided detection paradigm to address these challenges. We employ a 3D ResNet integrated with a Convolutional Block Attention Module (CBAM), demonstrating that emphasising ROIs in brain imaging can substantially reduce both computational expenditure and training time. Our model exhibits robust performance in discriminating Alzheimer’s disease from mild cognitive impairment, achieving an accuracy of 88% across the entire brain and 92% within targeted ROIs on the ADNI dataset. The accuracy on the OASIS dataset is even higher, reaching 98% for all regions and 98.33% for the ROIs. When distinguishing Alzheimer’s disease from cognitively normal individuals, the accuracy improves further, achieving 93.33% for the ROIs on the ADNI dataset and 97.8% on the OASIS dataset. In differentiating cognitively normal individuals from those with mild cognitive impairment, the model attains an accuracy of 88.2% for the ROIs on the ADNI dataset and 98.6% on the OASIS dataset. These findings highlight a notable enhancement in detection accuracy through the utilisation of fewer, yet more salient brain regions, underscoring the efficacy of our ROI-guided approach.}
+}
+```
+
+## 🔍 Short Demonstration
+
+This project leverages advanced Convolutional Neural Networks (CNNs) for automated segmentation and analysis of 3D MRI brain images to detect Alzheimer's Disease. The core model architecture is a **3D ResNet enhanced with a Convolutional Block Attention Module (CBAM)**, significantly improving both model accuracy and interpretability.
+
+Our workflow includes:
+
+* Preprocessing (bias correction, skull stripping, CLAHE)
+* Image registration and standardization
+* FastSurfer-based segmentation
+* ROI extraction
+* Extensive data augmentation
+
+Datasets were obtained from **ADNI** and **OASIS**, and experiments focused on classifying subjects into:
+
+* Alzheimer’s Disease (AD)
+* Mild Cognitive Impairment (MCI)
+* Cognitively Normal (CN)
+
+This method is particularly effective for early-stage detection, guiding clinical decision-making through high-accuracy, ROI-focused models.
+
+
 
 ## Abstract
 
+Alzheimer’s disease is an incurable condition that predominantly affects the human brain, leading to the shrinkage of various brain regions and the disruption of neuronal connections. Current state-of-the-art methods for detecting Alzheimer’s disease using 3D MRI images are resource-intensive and time-consuming. In this paper, we propose a Regions of Interest (ROI)-guided detection paradigm to address these challenges. We employ a 3D ResNet integrated with a Convolutional Block Attention Module (CBAM), demonstrating that emphasising ROIs in brain imaging can substantially reduce both computational expenditure and training time. Our model exhibits robust performance in discriminating Alzheimer’s disease from mild cognitive impairment, achieving an accuracy of 88% across the entire brain and 92% within targeted ROIs on the ADNI dataset. The accuracy on the OASIS dataset is even higher, reaching 98% for all regions and 98.33% for the ROIs. When distinguishing Alzheimer’s disease from cognitively normal individuals, the accuracy improves further, achieving 93.33% for the ROIs on the ADNI dataset and 97.8% on the OASIS dataset. In differentiating cognitively normal individuals from those with mild cognitive impairment, the model attains an accuracy of 88.2% for the ROIs on the ADNI dataset and 98.6% on the OASIS dataset. These findings highlight a notable enhancement in detection accuracy through the utilisation of fewer, yet more salient brain regions, underscoring the efficacy of our ROI-guided approach.
 
 
 ## Datasets
