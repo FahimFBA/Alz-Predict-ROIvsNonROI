@@ -1,0 +1,64 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite the following paper and the GitHub repository."
+title: "Efficient Prediction for Alzheimer's Disease"
+authors:
+  - family-names: Khan
+    given-names: Israt Jahan
+  - family-names: Amin
+    given-names: Md. Fahim Bin
+  - family-names: Deepu
+    given-names: Md. Delwar Shahadat
+  - family-names: Hira
+    given-names: Hazera Khatun
+  - family-names: Mahmud
+    given-names: Asif
+  - family-names: Chowdhury
+    given-names: Anas Mashad
+  - family-names: Islam
+    given-names: Salekul
+  - family-names: Mukta
+    given-names: Md. Saddam Hossain
+  - family-names: Shatabda
+    given-names: Swakkhar
+date-released: 2025-04-15
+version: "1.0.0"
+doi: 10.1016/j.imu.2025.101650
+url: https://github.com/FahimFBA/Alz-Predict-ROIvsNonROI
+repository-code: https://github.com/FahimFBA/Alz-Predict-ROIvsNonROI
+license: MIT
+keywords:
+  - Alzheimer's disease
+  - 3D MRI
+  - Deep Learning
+  - ROI
+  - ResNet
+  - Medical Imaging
+  - CBAM
+  - Neuroimaging
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Khan
+      given-names: Israt Jahan
+    - family-names: Amin
+      given-names: Md. Fahim Bin
+    - family-names: Deepu
+      given-names: Md. Delwar Shahadat
+    - family-names: Hira
+      given-names: Hazera Khatun
+    - family-names: Mahmud
+      given-names: Asif
+    - family-names: Chowdhury
+      given-names: Anas Mashad
+    - family-names: Islam
+      given-names: Salekul
+    - family-names: Mukta
+      given-names: Md. Saddam Hossain
+    - family-names: Shatabda
+      given-names: Swakkhar
+  title: "Enhanced ROI guided deep learning model for Alzheimer’s detection using 3D MRI images"
+  journal: "Informatics in Medicine Unlocked"
+  year: 2025
+  volume: 56
+  pages: 101650
+  doi: 10.1016/j.imu.2025.101650
