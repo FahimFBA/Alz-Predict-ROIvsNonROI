@@ -56,6 +56,14 @@ Datasets were obtained from **ADNI** and **OASIS**, and experiments focused on c
 
 This method is particularly effective for early-stage detection, guiding clinical decision-making through high-accuracy, ROI-focused models.
 
+### Overall Pipeline
+
+![Overall pipeline showing data collection, segmentation, preprocessing, augmentation, model training, and prediction](img/f_model.png)
+
+### Model Architecture
+
+![3D ResNet with CBAM model architecture](img/f_arch.png)
+
 ## Abstract
 
 Alzheimer's disease is an incurable condition that predominantly affects the human brain, leading to the shrinkage of various brain regions and the disruption of neuronal connections. Current state-of-the-art methods for detecting Alzheimer's disease using 3D MRI images are resource-intensive and time-consuming. In this paper, we propose a Regions of Interest (ROI)-guided detection paradigm to address these challenges. We employ a 3D ResNet integrated with a Convolutional Block Attention Module (CBAM), demonstrating that emphasising ROIs in brain imaging can substantially reduce both computational expenditure and training time. Our model exhibits robust performance in discriminating Alzheimer's disease from mild cognitive impairment, achieving an accuracy of 88% across the entire brain and 92% within targeted ROIs on the ADNI dataset. The accuracy on the OASIS dataset is even higher, reaching 98% for all regions and 98.33% for the ROIs. When distinguishing Alzheimer's disease from cognitively normal individuals, the accuracy improves further, achieving 93.33% for the ROIs on the ADNI dataset and 97.8% on the OASIS dataset. In differentiating cognitively normal individuals from those with mild cognitive impairment, the model attains an accuracy of 88.2% for the ROIs on the ADNI dataset and 98.6% on the OASIS dataset. These findings highlight a notable enhancement in detection accuracy through the utilisation of fewer, yet more salient brain regions, underscoring the efficacy of our ROI-guided approach.
@@ -71,6 +79,8 @@ In the first phase, we gathered 3D MRI datasets from ADNI and OASIS, renowned in
 
 For our research, we categorized the dataset into three distinct groups: AD (Alzheimer's Disease), CN (Cognitively Normal), and MCI (Mild Cognitive Impairment).
 
+![Dataset collection and organization flow for ADNI and OASIS](img/f_datasets.png)
+
 ### ADNI
 
 We utilized the ADNI Screening 1.5T dataset, which includes subjects who underwent a screening scan. We collected Neuroimaging Informatics Technology Initiative (NIfTI) images from 2294 subjects.
@@ -80,6 +90,12 @@ We utilized the ADNI Screening 1.5T dataset, which includes subjects who underwe
 The dataset includes 416 patients aged 18 to 96. Each person undergoes three or four T1-weighted MRI scans in a single session. Among the participants over sixty, 100 have been diagnosed with Alzheimer's disease. Additionally, there is a reliability dataset with 20 nondemented participants.
 
 ## Dataset Preprocessing
+
+![Full preprocessing pipeline including FastSurfer segmentation, ROI classification, augmentation, and model training](img/f_dataPreprocess.png)
+
+### FastSurfer Segmentation
+
+![FastSurfer CNN architecture showing axial, coronal, and sagittal processing streams](img/f_fastSurfer.png)
 
 ## Experiments
 
